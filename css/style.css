@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+body { font-family: "Arial", Helvetica, sans-serif; font-size: 10px;}
+ 
+#topo {
+ width: 100%;
+ float: left;
+ position: relative;
+ background-color: #006c7b;
+}
+#box-topo {
+ width: 960px;
+ height: 539px;
+ position: relative;
+ float: left;
+ left: 50%;
+ margin-left: -480px;
+ background:url(../imagens/topoV3.png) no-repeat;
+}
+#box-topo h1 a {
+ width: 394px;
+ height: 72px;
+ position: relative;
+ text-indent: -9999px;
+ margin: 40px 40px 0 0;
+ float: right;
+ background:url(../imagens/logo.png) no-repeat;
+}
+#box_form {
+ width: 300px;
+ height: 390px;
+ background-color: rgba(255,255,255,0.8);
+ position: absolute;
+ right: 0;
+ float: right;
+ margin-top: 130px;
+ margin-right: 65px;
+ padding-top: 5px;
+ border: solid 2px #b80e80;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+}
+form input {
+ width: 266px;
+ height: 32px;
+ border: solid 1px #007f8f;
+ padding: 0 2px 0 4px;
+ margin: 0 0 10px 12px;
+ font-family: "Arial", Helvetica, sans-serif;
+ color: #000;
+ font-size: 16px;
+}
+form textarea {
+ width: 260px;
+ height: 90px;
+ border: solid 1px #007f8f;
+ padding: 5px;
+ font-family: "Arial", Helvetica, sans-serif;
+ margin: 0 0 10px 12px;
+ color: #000;
+ font-family: "Arial", Helvetica, sans-serif;
+ font-size: 16px;
+}
+form label {
+ font-size: 13px;
+ font-family: "Arial", Helvetica, sans-serif;
+ text-transform: uppercase;
+ padding: 5px 0 2px 0;
+ float: left;
+ margin-left: 12px;
+ color: #007f8f;
+}
+.statusNome {
+ margin-top: 5px;
+}
+small {
+ float: left;
+ padding: 0 0 0 15px;
+ margin: -5px 0 0 0;
+ width: 80%;
+ color: #007f8f; 
+}
+.enviar {
+ width: 90%;
+ background-color: #b80e80;
+ font-family: "Arial", Helvetica, sans-serif;
+ padding: 2px 0 6px 0;
+ margin: 10px 5% 0 5%;
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ font-size: 19px;
+ text-decoration: none;
+ color: #FFF;
+ float: left;
+ border: solid 1px #b8b8b8;
+}
+.enviar:hover {
+ background-color: #598257;
+}
+
+#info {
+ background-color: #007f8f;
+ width: 100%;
+ float: left;
+ position: relative;
+}
+#box-info {
+ width: 960px;
+ height: 630px;
+ background:url(../imagens/meio.png) no-repeat;
+ position: relative;
+ float: left;
+ left: 50%;
+ margin-left: -480px;
+}
+
+#perspectiva {
+ background-color: #006c7b;
+ width: 100%;
+ float: left;
+ position: relative;
+}
+#box-perspectiva {
+ width: 960px;
+ height: 564px;
+ background:url(../imagens/perspectiva.png) no-repeat;
+ position: relative;
+ float: left;
+ left: 50%;
+ margin-left: -480px;
+}
+#plantas {
+ background-color: #FFF;
+ width: 100%;
+ float: left;
+ position: relative;
+}
+#box-plantas {
+ width: 960px;
+ height: 567px;
+ background:url(../imagens/plantas.png) no-repeat;
+ position: relative;
+ float: left;
+ left: 50%;
+ margin-left: -480px;
+ margin-bottom: 10px;
+}
+#rodape {
+ background-color: #007f8f;
+ width: 100%;
+ float: left;
+ position: relative;
+}
+#box-rodape {
+ width: 960px;
+ position: relative;
+ float: left;
+ left: 50%;
+ margin-left: -480px;
+ text-align: center;
+ margin-top: 10px;
+}
+.txt-obrigado {
+ text-align: center;
+ font-size: 25px;
+ color: #b80e80;
+ line-height: 30px;
+ padding-left: 1%;
+ padding-right: 1%;
+ text-transform: uppercase;
+ padding-top: 100px !important;
+}
+::-webkit-input-placeholder { color: inherit;} /*Atributo para o Chrome colocar cor dentro do input*/
+
+/* Hack ie10 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { 
+
+   
+}
